@@ -1,0 +1,18 @@
+[package]
+name = "simple-ui"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+skia-safe = { version = "0.66.3", features = ["metal"] }
+# winit = "0.28.7"
+winit = { path = "../../deps/winit" }
+cocoa = "0.25.0"
+metal = "0.26.0"
+objc = "0.2.7"
+foreign-types-shared = "0.3.1"
+core-graphics-types = "0.1.2"
+as-any = "0.3.1"
+serde_json = "1.0.107"

@@ -1,0 +1,44 @@
+{
+  "type": "Container",
+  "layout": "LayoutVertical",
+  "name": "Root",
+  "margin": "4, 4, 4, 4",
+  "padding": "6, 6, 6, 6",
+  "border_width": 2,
+  "round": "14",
+  "border_color": "DARK_GRAY",
+  "bg_color": "WHITE",
+  "children": [
+    {
+      "type": "Container",
+      "name": "UIToobar",
+      "height": 25,
+      "children": [
+        {
+          "type": "Text",
+          "name": "Toolbar_TODO",
+          "left": 5,
+          "top": 5,
+          "margin": "20, 0, 0, 10"
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "name": "UIContextRoot",
+      "children": [
+        {
+          "type": "Container",
+          "name": "UIContext2",
+          "children": [
+            {
+              "type": "Text",
+              "name": "TextInfo",
+              "height": 200
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
