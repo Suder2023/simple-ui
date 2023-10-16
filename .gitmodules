@@ -1,0 +1,3 @@
+[submodule "deps/winit"]
+	path = deps/winit
+	url = https://github.com/rust-windowing/winit.git
